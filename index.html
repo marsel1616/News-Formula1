@@ -2,6 +2,13 @@
 <html>
 </header>
 <title>News Formula-1</title>
+    <div class="search-box">
+<form action="https://www.google.com/search" method="get">
+<input type="text" name="q" placeholder="Поиск по сайту">
+<input type="hidden" name="sitesearch" value="news-formula-1.ru">
+<button type="submit">🔍</button>
+</form>
+</div>
 <link rel="icon" href="favicon.ico">
 </header>
     <!-- Гамбургер -->
@@ -17,6 +24,7 @@
   <a href="contact.html">Контакты</a>
   <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
 </div>
+
    <style>
    /* Гамбургер */
 .hamburger {
@@ -107,6 +115,35 @@ footer{
   background:#222;
   text-align:center;
   padding:15px;
+}
+
+       
+       .search-box{
+  display:flex;
+  justify-content:center;
+  margin-top:15px;
+}
+
+.search-box input{
+  width:250px;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:5px 0 0 5px;
+  font-size:14px;
+}
+
+.search-box button{
+  padding:10px 15px;
+  border:none;
+  background:#e10600;
+  color:white;
+  cursor:pointer;
+  border-radius:0 5px 5px 0;
+  font-size:16px;
+}
+
+.search-box button:hover{
+  background:#b80000;
 }
 </style>
 

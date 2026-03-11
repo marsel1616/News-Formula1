@@ -1,52 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>News Formula-1</title>
-  <style>
-    /* Общий стиль страницы */
-    body { 
-      font-family: Arial, sans-serif; 
-      background-color: #111;   /* темный фон */
-      color: #fff;              /* белый текст */
-      margin: 0; 
-      padding: 20px; 
-    }
+<title>News Formula-1</title>
 
-    /* Заголовок сайта */
-    h1 { 
-      color: #e10600;           /* красный цвет Ferrari ;) */
-      text-align: center;
-    }
+<style>
+body{
+  font-family: Arial;
+  background:#111;
+  color:white;
+  margin:0;
+}
 
-    /* Новости */
-    .news { 
-      border-bottom: 1px solid #444;  /* разделитель между новостями */
-      padding: 15px 0; 
-    }
+header{
+  background:#e10600;
+  padding:20px;
+  text-align:center;
+}
 
-    .news h2 { 
-      color: #ffd700;           /* золотой для заголовков новостей */
-      margin: 0; 
-    }
+nav{
+  background:#222;
+  padding:10px;
+  text-align:center;
+}
 
-    .news p { 
-      margin: 5px 0 0 0; 
-    }
-  </style>
+nav a{
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+}
+
+.container{
+  width:900px;
+  margin:auto;
+  padding:20px;
+}
+
+.news{
+  border-bottom:1px solid #444;
+  padding:15px 0;
+}
+
+footer{
+  background:#222;
+  text-align:center;
+  padding:15px;
+}
+</style>
+
 </head>
+
 <body>
 
+<header>
 <h1>News Formula-1</h1>
+</header>
+
+<nav>
+<a href="#">Главная</a>
+<a href="#">Новости</a>
+<a href="#">Календарь</a>
+<a href="#">Команды</a>
+</nav>
+
+<div class="container">
 
 <div class="news">
-  <h2>Гран-при Австралии</h2>
-  <p>Ferrari показала отличные результаты на старте сезона.</p>
+<h2>Ferrari готовит обновления</h2>
+<p>Команда готовит новые улучшения к следующему этапу сезона.</p>
 </div>
 
 <div class="news">
-  <h2>Обновления болидов</h2>
-  <p>Mercedes и Red Bull готовят новые улучшения к следующей гонке.</p>
+<h2>Red Bull снова впереди</h2>
+<p>Команда показала отличную скорость на тестах.</p>
 </div>
+
+</div>
+
+<footer>
+<p>© 2026 News Formula-1</p>
+</footer>
 
 </body>
 </html>

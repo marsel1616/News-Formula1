@@ -5,7 +5,7 @@
 <style>
   
 </head>
-body{
+  body{
   font-family: Arial;
   background:#111;
   color:white;
@@ -63,7 +63,52 @@ footer{
 </style>
 
 </head>
+/* Гамбургер */
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  padding: 15px;
+  background: #e10600;
+  width: 50px;
+  text-align: center;
+}
 
+/* Панель меню */
+.side-menu {
+  height: 100%; /* полностью по высоте страницы */
+  width: 0;     /* изначально скрыта */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s; /* плавное открытие */
+  padding-top: 60px;
+}
+
+/* Ссылки внутри панели */
+.side-menu a {
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.2s;
+}
+
+.side-menu a:hover {
+  background-color: #575757;
+}
+
+/* Кнопка закрытия */
+.side-menu .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 36px;
+}
+  
 <body>
 
 <header>

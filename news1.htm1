@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ferrari готовит обновления</title>
+<title>Новости</title>
 </head>
 
 <body>
 
-<h1>Ferrari готовит обновления</h1>
+<h1>Новости Formula 1</h1>
 
 <p>
-Команда Ferrari готовит новые улучшения болида
-к следующему этапу чемпионата.
+Все новости Формулы-1.
 </p>
 
 <a href="index.html">Назад на главную</a>

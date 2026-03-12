@@ -147,15 +147,14 @@ footer{
 }
  <style>
        .news-container{
-  display:flex;
-  flex-wrap:wrap;
-  gap:20px;
-  justify-content:center;
-  margin:30px;
+  width:100%;
+  overflow:hidden; /* чтобы контейнер подстраивался под float */
 }
 
 .news-card{
   width:300px;
+  float:left;
+  margin:10px;
   background:white;
   padding:15px;
   border-radius:10px;

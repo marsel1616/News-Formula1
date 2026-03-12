@@ -146,6 +146,38 @@ footer{
   background:#b80000;
 }
  <style>
+       
+       /* Для экранов до 900px — две колонки */
+@media (max-width: 900px) {
+  .news-card{
+    flex:1 1 45%; /* две колонки */
+  }
+}
+
+/* Для экранов до 600px — одна колонка */
+@media (max-width: 600px) {
+  .news-card{
+    flex:1 1 100%; /* одна колонка */
+  }
+}
+
+    .news-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+}
+
+.news-card{
+  flex:1 1 300px; /* минимальная ширина 300px */
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+  display:flex;
+  flex-direction:column;
+}
+       
     .news-card{
   transition: 0.3s;
 }

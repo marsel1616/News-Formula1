@@ -146,6 +146,31 @@ footer{
   background:#b80000;
 }
  <style>
+    .news-card{
+  transition: 0.3s;
+}
+
+.news-card:hover{
+  transform: translateY(-5px); /* карточка приподнимается */
+  box-shadow:0 8px 20px rgba(0,0,0,0.3); /* тень становится больше */
+}
+       
+      .news-card a{
+  display:inline-block;
+  margin-top:10px;
+  color:white;
+  background:#e10600;
+  padding:8px 12px;
+  text-decoration:none;
+  border-radius:5px;
+  transition: 0.3s; /* плавный переход */
+}
+
+.news-card a:hover{
+  background:#b50000; /* меняем фон при наведении */
+  transform: scale(1.05); /* немного увеличиваем кнопку */
+}
+       
        .news-container{
   display:flex;
   flex-wrap:wrap;
